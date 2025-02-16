@@ -130,7 +130,7 @@ struct ImageView: View {
             .clipShape(Circle())
             .padding(8)
             .frame(width: 105, height: 105)
-            .background(Circle().stroke(Color.accentColor, lineWidth: 5).shadow(radius: 1))
+            .background(Circle().stroke(Color.white, lineWidth: 3).shadow(radius: 1))
             .offset(y: -30)
             .padding(.bottom, -30)
             .overlay(alignment: .bottomTrailing) {
@@ -141,7 +141,7 @@ struct ImageView: View {
                     .background(
                         Circle()
                             .fill(Color.white)
-                            .shadow(radius: 1)
+                            .shadow(radius: 1.5)
                     )
             }
     }
