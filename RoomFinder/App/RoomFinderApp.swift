@@ -11,7 +11,7 @@ import SwiftUI
 struct RoomFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
         }
     }
 }
